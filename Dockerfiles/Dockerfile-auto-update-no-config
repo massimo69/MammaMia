@@ -7,8 +7,9 @@ WORKDIR /app
 # Install git
 RUN apt-get update && apt-get install -y git
 
+
 # Clone the repository
-RUN git clone https://github.com/UrloMythus/MammaMia.git .
+RUN git clone https://github.com/massimo69/MammaMia.git .
 
 
 # Install any needed packages specified in requirements.txt
